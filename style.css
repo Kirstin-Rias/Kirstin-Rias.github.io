@@ -87,7 +87,10 @@ nav a:hover {
     width: 100%;
     border-radius: 4px;
 }
-
+.product-card img {
+    height: 300px;
+    object-fit: cover;
+}
 .buy-btn {
     display: block;
     margin-top: 10px;
