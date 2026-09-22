@@ -1,0 +1,123 @@
+/* GLOBAL */
+body {
+    margin: 0;
+    font-family: 'Cinzel', serif;
+    background-color: #000;
+    color: #e6e6e6;
+}
+
+h1, h2, h3 {
+    font-weight: 300;
+    letter-spacing: 2px;
+}
+
+/* HEADER */
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background: #000;
+    border-bottom: 1px solid #222;
+}
+
+.logo {
+    font-size: 28px;
+    letter-spacing: 4px;
+}
+
+nav a {
+    margin-left: 20px;
+    text-decoration: none;
+    color: #e6e6e6;
+}
+
+nav a:hover {
+    color: #ff2a2a;
+}
+
+/* HERO */
+.hero {
+    text-align: center;
+    padding: 120px 20px;
+    background: url('assets/hero-bg.png') center/cover no-repeat;
+}
+
+.cta {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 12px 24px;
+    background: #ff2a2a;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 4px;
+}
+
+.cta:hover {
+    background: #b30000;
+}
+
+/* SHOP */
+.shop {
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.product-grid {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+
+.product-card {
+    background: #111;
+    padding: 20px;
+    width: 260px;
+    border: 1px solid #222;
+    border-radius: 6px;
+    transition: 0.3s;
+}
+
+.product-card:hover {
+    box-shadow: 0 0 20px #ff2a2a;
+}
+
+.product-card img {
+    width: 100%;
+    border-radius: 4px;
+}
+
+.buy-btn {
+    display: block;
+    margin-top: 10px;
+    padding: 10px;
+    background: #ff2a2a;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 4px;
+}
+
+.buy-btn:hover {
+    background: #b30000;
+}
+
+/* ABOUT */
+.about {
+    padding: 60px 20px;
+    background: #0a0a0a;
+    text-align: center;
+}
+
+/* CONTACT */
+.contact {
+    padding: 60px 20px;
+    text-align: center;
+}
+
+/* FOOTER */
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #000;
+    border-top: 1px solid #222;
+}
