@@ -119,6 +119,18 @@
         <p>© 2026 Nyx — All Rights Reserved</p>
         <p>Powered by GitHub Pages</p>
     </footer>
+<script>
+document.querySelectorAll('.category-nav button').forEach(btn => {
+    btn.addEventListener('click', () => {
+        const category = btn.getAttribute('data-category');
 
+        document.querySelectorAll('.category-section').forEach(section => {
+            section.classList.remove('active');
+        });
+
+        document.getElementById(category).classList.add('active');
+    });
+});
+</script>
 </body>
 </html>
