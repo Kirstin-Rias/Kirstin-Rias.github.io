@@ -132,3 +132,30 @@ footer {
     object-fit: cover;
     border-radius: 4px;
 }
+.category-nav {
+    margin: 30px 0;
+}
+
+.category-nav button {
+    background: #111;
+    color: #e6e6e6;
+    border: 1px solid #222;
+    padding: 10px 20px;
+    margin: 5px;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: 0.3s;
+}
+
+.category-nav button:hover {
+    background: #ff2a2a;
+    color: #fff;
+}
+
+.category-section {
+    display: none;
+}
+
+.category-section.active {
+    display: block;
+}
